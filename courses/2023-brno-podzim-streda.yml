@@ -1,5 +1,5 @@
 title: Začátečnický kurz PyLadies naruby
-subtitle: Brno - jaro 2023 - čtvrtek
+subtitle: Brno - podzim 2023 - středa
 time: 18:00–20:00
 place: Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505
 default_time:
@@ -28,7 +28,7 @@ vars:
 plan:
 - slug: preparation
   title: 'Instalace'
-  date: 2023-03-09
+  date: 2023-09-27
   materials:
   - title: Textové materiály
     url: null
@@ -62,13 +62,13 @@ plan:
   - title: Tahák na klávesnici (PDF)
     url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
     type: cheatsheet
-  - title: 'Projekty (✊✌✋)'
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=preparation
-    type: homework
+#  - title: 'Projekty (✊✌✋)'
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=preparation
+#    type: homework
 
 - slug: expressions
   title: 'Výrazy a podmínky'
-  date: 2023-03-16
+  date: 2023-10-04
   materials:
   - title: Textové materiály
     url: null
@@ -95,13 +95,13 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: 'Projekty (✊✌✋)'
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=expressions
-    type: homework
+#  - title: 'Projekty (✊✌✋)'
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=expressions
+#    type: homework
 
 - slug: loops
   title: 'Funkce a želva'
-  date: 2023-03-23
+  date: 2023-10-11
   materials:
   - title: Textové materiály
     url: null
@@ -129,13 +129,13 @@ plan:
   - title: Tahák na užitečné funkce (PDF)
     url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
     type: cheatsheet
-  - title: 'Projekty (✊✌✋)'
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=loops
-    type: homework
+#  - title: 'Projekty (✊✌✋)'
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=loops
+#    type: homework
 
 - slug: str
   title: 'Cyklus `while` a řetězce'
-  date: 2023-03-30
+  date: 2023-10-18
   materials:
   - title: Textové materiály
     url: null
@@ -168,24 +168,24 @@ plan:
   - title: Řetězcový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
     type: cheatsheet
-  - title: 'Projekty (✊✌✋)'
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=str
-    type: homework
+#  - title: 'Projekty (✊✌✋)'
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=str
+#    type: homework
 
 
 - slug: opak
   title: 'Opakování'
-  date: 2023-04-06
+  date: 2023-10-25
   materials:
   - lesson: beginners/placeholder
-  - title: 'Projekty'
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=opak
-    type: homework
+#  - title: 'Projekty'
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=opak
+#    type: homework
 
 
 - slug: def
   title: 'Vlastní funkce'
-  date: 2023-04-13
+  date: 2023-11-01
   materials:
   - title: Textové materiály
     url: null
@@ -214,13 +214,13 @@ plan:
 
   - title: Python Tutor
     url: http://pythontutor.com/visualize.html#mode=edit
-  - title: "Projekty"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=def
-    type: homework
+#  - title: "Projekty"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=def
+#    type: homework
 
 - slug: exc
   title: 'Chyby a moduly'
-  date: 2023-04-20
+  date: 2023-11-08
   materials:
   - title: Textové materiály
     url: null
@@ -244,14 +244,14 @@ plan:
   - title: Výjimkový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
     type: cheatsheet
-  - title: "Projekty (×○×○)"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=exc
-    type: homework
+#  - title: "Projekty (×○×○)"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=exc
+#    type: homework
 
 
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2023-04-27
+  date: 2023-11-15
   materials:
   - title: Textové materiály
     url: null
@@ -274,14 +274,14 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: "Projekty (✕✕✕)"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=test
-    type: homework
+#  - title: "Projekty (✕✕✕)"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=test
+#    type: homework
 
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2023-05-04
+  date: 2023-11-22
   materials:
   - title: Textové materiály
     url: null
@@ -305,14 +305,14 @@ plan:
   - title: Tahák na seznamy (PDF)
     url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
     type: cheatsheet
-  - title: "Projekty – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=list
-    type: homework
+#  - title: "Projekty – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=list
+#    type: homework
 
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2023-05-11
+  date: 2023-11-29
   materials:
   - title: Textové materiály
     url: null
@@ -334,14 +334,14 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: Projekty (⚔️)
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=file
-    type: homework
+#  - title: Projekty (⚔️)
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=file
+#    type: homework
 
 
 - slug: dict
   title: 'Slovníky'
-  date: 2023-05-18
+  date: 2023-12-06
   materials:
   - title: Textové materiály
     url: null
@@ -365,13 +365,13 @@ plan:
   - title: Slovníkový tahák (PDF)
     url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
     type: cheatsheet
-  - title: "Projekty (💾)"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=dict
-    type: homework
+#  - title: "Projekty (💾)"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=dict
+#    type: homework
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2023-05-25
+  date: 2023-12-13
   materials:
   - title: Textové materiály
     url: null
@@ -389,8 +389,8 @@ plan:
   - title: Další odkazy
     url: null
 
-  - title: "Projekty (♟♚)"
-    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=class
-    type: homework
+#  - title: "Projekty (♟♚)"
+#    url: https://projekty.pyladies.cz/session?course=pyladies-2023-brno-jaro-ctvrtek&session=class
+#    type: homework
   - title: Odkazy na další materiály
     url: https://www.fi.muni.cz/IB111/sbirka/
