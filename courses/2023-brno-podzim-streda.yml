@@ -249,9 +249,16 @@ plan:
     type: homework
 
 
+- slug: pause
+  title: 'Pauza'
+  date: 2023-11-15
+  materials:
+  - lesson: beginners/placeholder
+
+
 - slug: test
   title: 'Rozhraní a testy'
-  date: 2023-11-15
+  date: 2023-11-22
   materials:
   - title: Textové materiály
     url: null
@@ -281,7 +288,7 @@ plan:
 
 - slug: list
   title: 'Seznamy a n-tice'
-  date: 2023-11-22
+  date: 2023-11-29
   materials:
   - title: Textové materiály
     url: null
@@ -312,7 +319,7 @@ plan:
 
 - slug: file
   title: 'Sekvence a soubory'
-  date: 2023-11-29
+  date: 2023-12-06
   materials:
   - title: Textové materiály
     url: null
@@ -341,7 +348,7 @@ plan:
 
 - slug: dict
   title: 'Slovníky'
-  date: 2023-12-06
+  date: 2023-12-13
   materials:
   - title: Textové materiály
     url: null
@@ -371,7 +378,7 @@ plan:
 
 - slug: class
   title: 'Třídy a dědičnost'
-  date: 2023-12-13
+  date: 2023-12-20
   materials:
   - title: Textové materiály
     url: null
@@ -394,3 +401,10 @@ plan:
     type: homework
   - title: Odkazy na další materiály
     url: https://www.fi.muni.cz/IB111/sbirka/
+
+
+- slug: final
+  title: 'Závěrečná lekce'
+  date: 2024-01-03
+  materials:
+  - lesson: beginners/placeholder
