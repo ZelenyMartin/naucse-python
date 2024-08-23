@@ -1,0 +1,360 @@
+title: Začátečnický kurz PyLadies naruby
+subtitle: Brno - podzim 2024 - úterý
+time: 18:00–20:00
+place: Fakulta Informatiky MUNI, Botanická 554/68a, místnost S505
+default_time:
+  start: '18:00'
+  end: '20:00'
+timezone: Europe/Prague
+description: Naučte se Python vážně od začátku. Žádné předchozí znalosti nejsou potřeba.
+long_description: |
+    Začátečnický kurz PyLadies.
+
+    Stránky samotných PyLadies jsou na [https://pyladies.cz][PyLadies].
+    Organizační informace hledej tam.
+
+    Materiály jsou určené naprostým začátačnicím v programování.
+    Instrukce jsou uvedeny pro operační systémy Linux, Windows i macOS.
+
+    Materiály jsou dostupné jako text i jako videa se stejným obsahem natočené Petrem Viktorinem.
+    Vyber si medium, které je ti pohodlnější.
+
+    [PyLadies]: https://pyladies.cz/
+vars:
+  pyladies: true
+  coach-present: true
+  user-gender: f
+
+plan:
+- slug: preparation
+  title: 'Instalace'
+  date: 2024-10-01
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/cmdline
+  - lesson: beginners/install
+  - lesson: beginners/venv-setup
+  - lesson: beginners/install-editor
+  - lesson: beginners/first-steps
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/GGMg8O4hE0c
+    title: (13:50) Příkazová řádka – Linux & macOS – video
+  - url: https://youtu.be/kriVWJmXpZc
+    title: (22:34) Příkazová řádka – Windows – video
+  - url: https://youtu.be/7Qi7cSkoBA0
+    title: (8:15) Instalace Pythonu – Linux – video
+  - url: https://youtu.be/Xr6liKJzRGA
+    title: (4:48) Instalace Pythonu – Windows – video
+  - url: https://youtu.be/AFVvpfQB0V0
+    title: (7:48) Nastavení prostředí – video
+  - url: https://youtu.be/JcXUCuneX04
+    title: (8:01) Instalace editoru – video
+  - url: https://youtu.be/0Poe25XdKIA
+    title: (7:23) První krůčky – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Tahák na klávesnici (PDF)
+    url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
+    type: cheatsheet
+  - title: 'Projekty (✊✌✋)'
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=preparation
+    type: homework
+
+- slug: expressions
+  title: 'Výrazy a podmínky'
+  date: 2024-10-08
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/hello-world
+  - lesson: beginners/print
+  - lesson: beginners/variables
+  - lesson: beginners/expressions
+  - lesson: beginners/comparisons
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/9aJcvOfleFs
+    title: (7:50) První program – video
+  - url: https://youtu.be/14-LVG9Edng
+    title: (12:38) Print a chybové hlášky – video
+  - url: https://youtu.be/-zKws24FmCg
+    title: (15:08) Proměnné – video
+  - url: https://youtu.be/nNXDXuN6Smg
+    title: (8:32) Vyhodnocování výrazů – video
+  - url: https://youtu.be/Q1YJqWzfnck
+    title: (17:27) Porovnání – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: 'Projekty (✊✌✋)'
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=expressions
+    type: homework
+
+- slug: loops
+  title: 'Funkce a želva'
+  date: 2024-10-15
+  materials:
+  - title: Textové materiály
+    url: null
+
+  - lesson: beginners/functions
+  - lesson: beginners/basic-functions
+  - lesson: intro/turtle
+  - lesson: beginners/reassignment
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/w_d8VKS8i48
+    title: (17:26) Funkce – video
+  - url: https://youtu.be/udEOvGIuZrs
+    title: (15:51) Užitečné funkce – video
+  - url: https://youtu.be/A__45ibnsnc
+    title: (33:02) Želva a cykly – video
+  - url: https://youtu.be/fFh1LiksgdA
+    title: (9:28) Přepisování proměnných – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Tahák na užitečné funkce (PDF)
+    url: https://pyvec.github.io/cheatsheets/basic-functions/basic-functions-cs.pdf
+    type: cheatsheet
+  - title: 'Projekty (✊✌✋)'
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=loops
+    type: homework
+
+- slug: str
+  title: 'Cyklus `while` a řetězce'
+  date: 2024-10-22
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/while
+  - lesson: beginners/and-or
+  - lesson: beginners/str
+  - lesson: beginners/str-index-slice
+  - lesson: beginners/str-methods
+  - lesson: beginners/fstring
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/I_mkND45dB0
+    title: (6:57) Cyklus While – video
+  - url: https://youtu.be/5Mc-cgoaM10
+    title: (7:58) Nebo anebo a – video
+  - url: https://youtu.be/xdZWIvryP20
+    title: (19:54) Zápis řetězců – video
+  - url: https://youtu.be/QOamCtzLPAo
+    title: (16:12) Výběr z řetězců – video
+  - url: https://youtu.be/I3CB2YihRh8
+    title: (9:19) Řetězcové funkce a metody – video
+  - url: https://youtu.be/2-r2e9aM1HU
+    title: (11:52) Šablony (formátovací řetězce) – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Řetězcový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
+    type: cheatsheet
+  - title: 'Projekty (✊✌✋)'
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=str
+    type: homework
+
+
+- slug: def
+  title: 'Vlastní funkce'
+  date: 2024-10-29
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/def
+  - lesson: beginners/prefer-return
+  - lesson: beginners/nested-traceback
+  - lesson: beginners/local-variables
+  - lesson: beginners/recursion
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/6a-RjR9fNBY
+    title: (17:01) Definice funkcí – video
+  - url: https://youtu.be/4M6Yq9ZyObs
+    title: (8:54) Vrátit nebo vypsat? – video
+  - url: https://youtu.be/I_DpjBDQy_k
+    title: (3:58) Chybové hlášky ze zanořených funkcí – video
+  - url: https://youtu.be/gbjXnMmuAxw
+    title: (14:25) Lokální proměnné – video
+  - url: https://youtu.be/Vu6_jK8OiAI
+    title: (12:23) Rekurze – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Python Tutor
+    url: http://pythontutor.com/visualize.html#mode=edit
+  - title: "Projekty"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=def
+    type: homework
+
+- slug: exc
+  title: 'Chyby a moduly'
+  date: 2024-11-05
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/exceptions
+  - lesson: beginners/modules
+  - lesson: beginners/circular-imports
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/s-P5mBjUJBw
+    title: (17:11) Výjimky – video
+  - url: https://youtu.be/LFp_x7OgCBU
+    title: (10:32) Moduly – video
+  - url: https://youtu.be/bZ4iiSDe_4g
+    title: (5:56) Cyklické importy – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Výjimkový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/exceptions/exceptions-cs.pdf
+    type: cheatsheet
+  - title: "Projekty (×○×○)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=exc
+    type: homework
+
+
+- slug: test
+  title: 'Rozhraní a testy'
+  date: 2024-11-12
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/interfaces
+  - lesson: beginners/testing
+  - lesson: beginners/main-module
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/xQ7J_R8VAJQ
+    title: (6:51) Rozhraní – video
+  - url: https://youtu.be/-KS_VRerZQ0
+    title: (15:25) Testování – video
+  - url: https://youtu.be/S6HyFIUyPTw
+    title: (10:12) Spouštěcí moduly – video
+  - url: https://youtu.be/s-KPxX5ZcMs
+    title: (3:53) Negativní testy – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: "Projekty (✕✕✕)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=test
+    type: homework
+
+
+- slug: list
+  title: 'Seznamy a n-tice'
+  date: 2024-11-19
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/list
+  - lesson: beginners/tuple
+  - lesson: beginners/nested-list
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/abIMJjb9Nxw
+    title: (11:10) Seznamy – Úvod – video
+  - url: https://youtu.be/-gINX_pOtQo
+    title: (32:52) Co všechno umí seznamy – video
+  - url: https://youtu.be/dObtA75Ouzk
+    title: (9:51) N-tice – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Tahák na seznamy (PDF)
+    url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
+    type: cheatsheet
+  - title: "Projekty – [\U0001f436\U0001f431\U0001f430\U0001f40d]"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=list
+    type: homework
+
+
+- slug: file
+  title: 'Sekvence a soubory'
+  date: 2024-11-26
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/range
+  - lesson: beginners/zip-enumerate
+  - lesson: beginners/files
+  - lesson: beginners/with
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/UtyIKgsnLmk
+    title: (5:02) Range – video
+  - url: https://youtu.be/JUCb7iiGsW4
+    title: (16:39) Iterátory n-tic (enum & zip) – video
+  - url: https://youtu.be/1X4TU_thg7s
+    title: (13:17) Soubory – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Projekty (⚔️)
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=file
+    type: homework
+
+
+- slug: dict
+  title: 'Slovníky'
+  date: 2024-12-03
+  materials:
+  - title: Textové materiály
+    url: null
+  - lesson: beginners/dict
+  - lesson: beginners/dict-with-list-values
+  - lesson: intro/json
+
+  - title: Videa ke shlédnutí
+    url: null
+
+  - url: https://youtu.be/OVnUhWwd2C0
+    title: (19:23) Slovníky – video
+  - url: https://youtu.be/pQ268T2IZCo
+    title: (4:42) Více hodnot v jednom záznamu slovníku – video
+  - url: https://youtu.be/nPUSH7gSI4o
+    title: (12:54) Kódování dat – JSON – video
+
+  - title: Další odkazy
+    url: null
+
+  - title: Slovníkový tahák (PDF)
+    url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
+    type: cheatsheet
+  - title: "Projekty (💾)"
+    url: https://projekty.pyladies.cz/session?course=pyladies-2024-brno-podzim-utery&session=dict
+    type: homework
