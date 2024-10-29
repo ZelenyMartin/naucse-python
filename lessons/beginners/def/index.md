@@ -173,7 +173,7 @@ Třeba, chceš-li odpověď „ano“ nebo „ne“:
 
 ```python
 def ano_nebo_ne(otazka):
-     """Vrátí True nebo False podle odpovědi uživatele"""
+    """Vrátí True nebo False podle odpovědi uživatele"""
     while True:
         odpoved = input(otazka)
         if odpoved == 'ano':
